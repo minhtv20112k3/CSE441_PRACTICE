@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Project_cal</string>
+    <string name="zero">0</string>
 </resources>
