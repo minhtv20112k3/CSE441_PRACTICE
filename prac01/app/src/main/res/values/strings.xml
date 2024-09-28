@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prac01</string>
+    <string name="textNone"></string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnStartNewActivity">START NEW ACTIVITY</string>
+    <string name="txtEnterYourInformation">Enter your information</string>
+
+</resources>
