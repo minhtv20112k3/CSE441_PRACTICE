@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">prac02</string>
+    <string name="titleApp">App calculate BMI</string>
+    <string name="txtName">Name</string>
+    <string name="txtHeight">Height</string>
+    <string name="txtWeight">Weight</string>
+    <string name="btnCalculate">Calculate BMI</string>
+    <string name="txtBMI">BMI</string>
+    <string name="txtDiagnosis">Diagnosis</string>
+</resources>
