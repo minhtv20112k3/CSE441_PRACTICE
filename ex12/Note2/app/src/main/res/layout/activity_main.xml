@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendar Notes"
+        android:textColor="#ff0000"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hôm Nay: 01/09/2016"
+        android:textSize="16sp"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp" />
+
+    <!-- Input fields and button -->
+    <EditText
+        android:id="@+id/etWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the work here..."
+        android:layout_below="@id/tvDate"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etWork"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Hour"
+            android:inputType="number"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etMinute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Minute"
+            android:inputType="number"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Work"
+        android:layout_below="@id/etMinute"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#ff0000"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- List of works -->
+
+</RelativeLayout>
